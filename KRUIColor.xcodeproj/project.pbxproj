@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		544577F7201DF4C800F0C012 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 544577F6201DF4C800F0C012 /* AppDelegate.m */; };
+		544577FA201DF4C800F0C012 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 544577F9201DF4C800F0C012 /* ViewController.m */; };
+		544577FD201DF4C800F0C012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544577FB201DF4C800F0C012 /* Main.storyboard */; };
+		544577FF201DF4C800F0C012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 544577FE201DF4C800F0C012 /* Assets.xcassets */; };
+		54457802201DF4C800F0C012 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54457800201DF4C800F0C012 /* LaunchScreen.storyboard */; };
+		54457805201DF4C800F0C012 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54457804201DF4C800F0C012 /* main.m */; };
+		5445780F201DF4C800F0C012 /* KRUIColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5445780E201DF4C800F0C012 /* KRUIColorTests.m */; };
+		5445781A201DF4C800F0C012 /* KRUIColorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54457819201DF4C800F0C012 /* KRUIColorUITests.m */; };
+		5445782A201DF50000F0C012 /* UIColor+KR.m in Sources */ = {isa = PBXBuildFile; fileRef = 54457829201DF50000F0C012 /* UIColor+KR.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5445780B201DF4C800F0C012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 544577EA201DF4C800F0C012 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 544577F1201DF4C800F0C012;
+			remoteInfo = KRUIColor;
+		};
+		54457816201DF4C800F0C012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 544577EA201DF4C800F0C012 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 544577F1201DF4C800F0C012;
+			remoteInfo = KRUIColor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		544577F2201DF4C800F0C012 /* KRUIColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRUIColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		544577F5201DF4C800F0C012 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		544577F6201DF4C800F0C012 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		544577F8201DF4C800F0C012 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		544577F9201DF4C800F0C012 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		544577FC201DF4C800F0C012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		544577FE201DF4C800F0C012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54457801201DF4C800F0C012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54457803201DF4C800F0C012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54457804201DF4C800F0C012 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5445780A201DF4C800F0C012 /* KRUIColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRUIColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5445780E201DF4C800F0C012 /* KRUIColorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRUIColorTests.m; sourceTree = "<group>"; };
+		54457810201DF4C800F0C012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54457815201DF4C800F0C012 /* KRUIColorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRUIColorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54457819201DF4C800F0C012 /* KRUIColorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRUIColorUITests.m; sourceTree = "<group>"; };
+		5445781B201DF4C800F0C012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54457828201DF50000F0C012 /* UIColor+KR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+KR.h"; sourceTree = "<group>"; };
+		54457829201DF50000F0C012 /* UIColor+KR.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KR.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		544577EF201DF4C800F0C012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54457807201DF4C800F0C012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54457812201DF4C800F0C012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		544577E9201DF4C800F0C012 = {
+			isa = PBXGroup;
+			children = (
+				544577F4201DF4C800F0C012 /* KRUIColor */,
+				5445780D201DF4C800F0C012 /* KRUIColorTests */,
+				54457818201DF4C800F0C012 /* KRUIColorUITests */,
+				544577F3201DF4C800F0C012 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		544577F3201DF4C800F0C012 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				544577F2201DF4C800F0C012 /* KRUIColor.app */,
+				5445780A201DF4C800F0C012 /* KRUIColorTests.xctest */,
+				54457815201DF4C800F0C012 /* KRUIColorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		544577F4201DF4C800F0C012 /* KRUIColor */ = {
+			isa = PBXGroup;
+			children = (
+				54457827201DF4E600F0C012 /* Color */,
+				544577F5201DF4C800F0C012 /* AppDelegate.h */,
+				544577F6201DF4C800F0C012 /* AppDelegate.m */,
+				544577F8201DF4C800F0C012 /* ViewController.h */,
+				544577F9201DF4C800F0C012 /* ViewController.m */,
+				544577FB201DF4C800F0C012 /* Main.storyboard */,
+				544577FE201DF4C800F0C012 /* Assets.xcassets */,
+				54457800201DF4C800F0C012 /* LaunchScreen.storyboard */,
+				54457803201DF4C800F0C012 /* Info.plist */,
+				54457804201DF4C800F0C012 /* main.m */,
+			);
+			path = KRUIColor;
+			sourceTree = "<group>";
+		};
+		5445780D201DF4C800F0C012 /* KRUIColorTests */ = {
+			isa = PBXGroup;
+			children = (
+				5445780E201DF4C800F0C012 /* KRUIColorTests.m */,
+				54457810201DF4C800F0C012 /* Info.plist */,
+			);
+			path = KRUIColorTests;
+			sourceTree = "<group>";
+		};
+		54457818201DF4C800F0C012 /* KRUIColorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54457819201DF4C800F0C012 /* KRUIColorUITests.m */,
+				5445781B201DF4C800F0C012 /* Info.plist */,
+			);
+			path = KRUIColorUITests;
+			sourceTree = "<group>";
+		};
+		54457827201DF4E600F0C012 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				54457828201DF50000F0C012 /* UIColor+KR.h */,
+				54457829201DF50000F0C012 /* UIColor+KR.m */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		544577F1201DF4C800F0C012 /* KRUIColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5445781E201DF4C800F0C012 /* Build configuration list for PBXNativeTarget "KRUIColor" */;
+			buildPhases = (
+				544577EE201DF4C800F0C012 /* Sources */,
+				544577EF201DF4C800F0C012 /* Frameworks */,
+				544577F0201DF4C800F0C012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRUIColor;
+			productName = KRUIColor;
+			productReference = 544577F2201DF4C800F0C012 /* KRUIColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54457809201DF4C800F0C012 /* KRUIColorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54457821201DF4C800F0C012 /* Build configuration list for PBXNativeTarget "KRUIColorTests" */;
+			buildPhases = (
+				54457806201DF4C800F0C012 /* Sources */,
+				54457807201DF4C800F0C012 /* Frameworks */,
+				54457808201DF4C800F0C012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5445780C201DF4C800F0C012 /* PBXTargetDependency */,
+			);
+			name = KRUIColorTests;
+			productName = KRUIColorTests;
+			productReference = 5445780A201DF4C800F0C012 /* KRUIColorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54457814201DF4C800F0C012 /* KRUIColorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54457824201DF4C800F0C012 /* Build configuration list for PBXNativeTarget "KRUIColorUITests" */;
+			buildPhases = (
+				54457811201DF4C800F0C012 /* Sources */,
+				54457812201DF4C800F0C012 /* Frameworks */,
+				54457813201DF4C800F0C012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54457817201DF4C800F0C012 /* PBXTargetDependency */,
+			);
+			name = KRUIColorUITests;
+			productName = KRUIColorUITests;
+			productReference = 54457815201DF4C800F0C012 /* KRUIColorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		544577EA201DF4C800F0C012 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = RK;
+				TargetAttributes = {
+					544577F1201DF4C800F0C012 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					54457809201DF4C800F0C012 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 544577F1201DF4C800F0C012;
+					};
+					54457814201DF4C800F0C012 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 544577F1201DF4C800F0C012;
+					};
+				};
+			};
+			buildConfigurationList = 544577ED201DF4C800F0C012 /* Build configuration list for PBXProject "KRUIColor" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 544577E9201DF4C800F0C012;
+			productRefGroup = 544577F3201DF4C800F0C012 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				544577F1201DF4C800F0C012 /* KRUIColor */,
+				54457809201DF4C800F0C012 /* KRUIColorTests */,
+				54457814201DF4C800F0C012 /* KRUIColorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		544577F0201DF4C800F0C012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54457802201DF4C800F0C012 /* LaunchScreen.storyboard in Resources */,
+				544577FF201DF4C800F0C012 /* Assets.xcassets in Resources */,
+				544577FD201DF4C800F0C012 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54457808201DF4C800F0C012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54457813201DF4C800F0C012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		544577EE201DF4C800F0C012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5445782A201DF50000F0C012 /* UIColor+KR.m in Sources */,
+				544577FA201DF4C800F0C012 /* ViewController.m in Sources */,
+				54457805201DF4C800F0C012 /* main.m in Sources */,
+				544577F7201DF4C800F0C012 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54457806201DF4C800F0C012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5445780F201DF4C800F0C012 /* KRUIColorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54457811201DF4C800F0C012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5445781A201DF4C800F0C012 /* KRUIColorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5445780C201DF4C800F0C012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 544577F1201DF4C800F0C012 /* KRUIColor */;
+			targetProxy = 5445780B201DF4C800F0C012 /* PBXContainerItemProxy */;
+		};
+		54457817201DF4C800F0C012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 544577F1201DF4C800F0C012 /* KRUIColor */;
+			targetProxy = 54457816201DF4C800F0C012 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		544577FB201DF4C800F0C012 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				544577FC201DF4C800F0C012 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54457800201DF4C800F0C012 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54457801201DF4C800F0C012 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5445781C201DF4C800F0C012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5445781D201DF4C800F0C012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5445781F201DF4C800F0C012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KRUIColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kr.KRUIColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54457820201DF4C800F0C012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KRUIColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kr.KRUIColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54457822201DF4C800F0C012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KRUIColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kr.KRUIColorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KRUIColor.app/KRUIColor";
+			};
+			name = Debug;
+		};
+		54457823201DF4C800F0C012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KRUIColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kr.KRUIColorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KRUIColor.app/KRUIColor";
+			};
+			name = Release;
+		};
+		54457825201DF4C800F0C012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KRUIColorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kr.KRUIColorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KRUIColor;
+			};
+			name = Debug;
+		};
+		54457826201DF4C800F0C012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KRUIColorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kr.KRUIColorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KRUIColor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		544577ED201DF4C800F0C012 /* Build configuration list for PBXProject "KRUIColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5445781C201DF4C800F0C012 /* Debug */,
+				5445781D201DF4C800F0C012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5445781E201DF4C800F0C012 /* Build configuration list for PBXNativeTarget "KRUIColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5445781F201DF4C800F0C012 /* Debug */,
+				54457820201DF4C800F0C012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54457821201DF4C800F0C012 /* Build configuration list for PBXNativeTarget "KRUIColorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54457822201DF4C800F0C012 /* Debug */,
+				54457823201DF4C800F0C012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54457824201DF4C800F0C012 /* Build configuration list for PBXNativeTarget "KRUIColorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54457825201DF4C800F0C012 /* Debug */,
+				54457826201DF4C800F0C012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 544577EA201DF4C800F0C012 /* Project object */;
+}
